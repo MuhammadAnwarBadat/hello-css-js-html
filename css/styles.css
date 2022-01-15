@@ -1,0 +1,24 @@
+h2 {
+    color: slategrey;
+    text-align: center;
+}
+
+.highlight {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    background-color:tan;
+    opacity: .6;
+}
+
+#mainPoint {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: turquoise;
+    opacity: .7;
+}
+
+p, h1 {
+    color:rgb(3, 65, 116);
+    text-align:center;
+}
