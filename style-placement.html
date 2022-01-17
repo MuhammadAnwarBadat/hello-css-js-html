@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,28 +11,40 @@
             background-color: ivory;
             font-size: 130%;
         }
+
         h2 {
             color: darkred;
         }
-/* Didn't override it because !important is mentioned*/
+
+        /* Didn't override it because !important is mentioned*/
         h2 {
             color: lightcoral !important;
         }
+
         #content {
             margin: 0;
             padding: 0;
             background-color: burlywood;
         }
+        #box {
+            background-color: chartreuse;
+        }
     </style>
 </head>
+
 <body>
-    <h1 id="content" >Style Placement</h1>
-    <h2>Subheading 1</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Illum consequuntur sit hic. Sapiente est corporis accusamus, 
-        omnis nobis at saepe similique, tempora ut consequatur 
+    <div>
+        <h1 id="content">Style Placement</h1>
+    </div>
+    <div id="box" >
+        <h2>Subheading 1</h2>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Illum consequuntur sit hic. Sapiente est corporis accusamus,
+        omnis nobis at saepe similique, tempora ut consequatur
         nostrum repellendus architecto. Doloremque, magni cupiditate!</p>
     <h2>Subheading 2</h2>
-    <p style="text-align: center;" >I am centered!</p>
+    <p style="text-align: center;">I am centered!</p>
 </body>
+
 </html>
