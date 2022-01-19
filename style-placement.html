@@ -8,6 +8,8 @@
     <title>Style Placement</title>
     <style>
         body {
+            margin: 0px;
+            padding: 0px;
             background-color: ivory;
             font-size: 130%;
         }
@@ -22,9 +24,7 @@
         }
 
         #content {
-            margin: 0;
-            padding: 0;
-            background-color: burlywood;
+            background-color: blue;
         }
         #box {
             background-color: chartreuse;
@@ -34,10 +34,12 @@
 
 <body>
     <div>
-        <h1 id="content">Style Placement</h1>
+        <h1>Style Placement</h1>
     </div>
-    <div id="box" >
-        <h2>Subheading 1</h2>
+    <div id="content">
+        <div id="box">
+            <h2>Subheading 1</h2>
+        </div>
     </div>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Illum consequuntur sit hic. Sapiente est corporis accusamus,
@@ -47,4 +49,4 @@
     <p style="text-align: center;">I am centered!</p>
 </body>
 
-</html>
+</html> 
