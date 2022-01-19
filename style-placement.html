@@ -7,11 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Style Placement</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             margin: 0px;
             padding: 0px;
             background-color: ivory;
             font-size: 130%;
+        }
+
+        #bg {
+            width: 700px;
+            height: 500px;
+            color: whitesmoke;
+            background-color: blueviolet;
+            background-image: url("images/istockphoto-1193323373-612x612.jpeg");
+            background-repeat: no-repeat;
         }
 
         h2 {
@@ -24,8 +37,17 @@
         }
 
         #content {
+            font-size: 14px;
             background-color: blue;
+            padding: 10px;
+            border: 5px solid black;
+            margin: 40px;
+            width: 300px;
+            height: 50px;
+            margin-top: 50px;
+            overflow: auto;
         }
+
         #box {
             background-color: chartreuse;
         }
@@ -33,20 +55,24 @@
 </head>
 
 <body>
+    <div id="bg" >Background is fun!</div>
     <div>
         <h1>Style Placement</h1>
     </div>
     <div id="content">
         <div id="box">
-            <h2>Subheading 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Illum consequuntur sit hic. Sapiente est corporis accusamus,
+                omnis nobis at saepe similique, tempora ut consequatur
+                nostrum repellendus architecto. Doloremque, magni cupiditate!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Illum consequuntur sit hic. Sapiente est corporis accusamus,
+                omnis nobis at saepe similique, tempora ut consequatur
+                nostrum repellendus architecto. Doloremque, magni cupiditate!</p>
         </div>
     </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Illum consequuntur sit hic. Sapiente est corporis accusamus,
-        omnis nobis at saepe similique, tempora ut consequatur
-        nostrum repellendus architecto. Doloremque, magni cupiditate!</p>
     <h2>Subheading 2</h2>
     <p style="text-align: center;">I am centered!</p>
 </body>
 
-</html> 
+</html>
